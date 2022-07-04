@@ -19,6 +19,7 @@ h1 {
 .half-width {
     width: 50%;
     padding: 5%;
+
 }
 
 .half-width img {
@@ -44,4 +45,39 @@ h1 {
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    width: 40%;
+
+
+}
+
+#full-stack-dev {
+
+    border-left: 7px solid blue;
+}
+
+#half-web-dev {
+
+    border-left: 7px solid tomato;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.experience-area {
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+footer {
+    text-align: center;
 }
